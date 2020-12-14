@@ -157,6 +157,7 @@ footer {
   padding-left: 1rem;
   padding-right: 1rem;
   border-top: .3rem solid #32231c;
+  padding-bottom: 0;
 }
 
 .contactfooter {
@@ -206,6 +207,14 @@ h1 {
 a {
   text-decoration: none;
   color: #014421;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer ul {
+  padding-bottom: 0;
 }
 
 @media only screen and (min-width: 38em) {
