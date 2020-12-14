@@ -12,11 +12,15 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  color: #0D3554;
+  color: #0d3554;
 }
 
 main {
   margin: 1rem;
+}
+
+.main {
+  margin: 0;
 }
 
 footer {
@@ -33,7 +37,7 @@ img {
 }
 
 .banner-content {
-  color: #E5F7FC;
+  color: #e5f7fc;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -59,25 +63,25 @@ img {
 }
 
 .nav a {
-  color: #0D3554;
+  color: #0d3554;
   text-decoration: none;
 }
 
 header {
-  background-color: #E5F7FC;
+  background-color: #e5f7fc;
 }
 
 .btn {
   font-family: Futura, sans-serif;
   background-color: white;
-  color: #0D3554;
+  color: #0d3554;
   border: .3rem solid white;
   border-radius: 100px;
 }
 
 .btn:hover {
-  background-color: #0D3554;
-  border: .3rem solid #0D3554;
+  background-color: #0d3554;
+  border: .3rem solid #0d3554;
 }
 
 a:hover {
@@ -85,15 +89,15 @@ a:hover {
 }
 
 .in {
-  background-color: #0D3554;
+  background-color: #0d3554;
   color: white;
-  border: .3rem solid #0D3554;
+  border: .3rem solid #0d3554;
 }
 
 .in:hover {
-  background-color: #E5F7FC;
-  color: #0D3554;
-  border: .3rem solid #0D3554;
+  background-color: #e5f7fc;
+  color: #0d3554;
+  border: .3rem solid #0d3554;
 }
 
 ul {
