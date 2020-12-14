@@ -8,6 +8,8 @@
   <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   <link href="favicon.ico" rel="shortcut icon">
   <link rel="icon" type="image/png" href="/favicon-196.png">
 </head>
@@ -36,33 +38,42 @@
   </div>
 
   <main role="main" id="main" tabindex="0">
-    <section>
-      <div class="everything max-length">
-        <div class="text">
-          <h1>About</h1>
-          <p></p>
+    <div class="grid night">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+          <h1 class="bold tenamega pad-t gutter-2 push-0">Tiki Night</h1>
         </div>
-        <div class="img img-flex">
-          <img src="images/party.jpg" alt="">
+        <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 img-flex beach">
+          <img src="images/party.jpg" alt="Traditional face paint">
+        </div>
+      </div>
+      <section id="about" tabindex="0">
+      <div class="about">
+        <h2 class="exa pad-t-2 text-center text-upper">About</h2>
+        <p class="gutter-2 pad-b max-length">Get a chance to dress up, dance on the beach under the stars and meet strangers next to a bonfire. If at least one of those things sound appealing to you, Tiki Night is made for you! Find out more details about it by emailing us. Prepare to create another amazing memory.</p>
+        <div class="text-center pad-b-2">
+          <a class="btn text-upper in" href="#">Reserve now!</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="aboutmefooter" role="contentinfo" id="footer" tabindex="0">
+  <footer class="aboutfooter" role="contentinfo" id="footer" tabindex="0">
     <div class="max-length grid pad-t-2">
       <div class="connect unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
         <h3 class="push-0">Connect with us!</h3>
       </div>
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 social">
-        <ul class="footer-nav text-center pad-b-2 social">
-          <li><a href="http://www.instagram.com"><img class="social social-small" src="images/" alt="instagram" aria-details="#instagram-icon"></a>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <ul class="footer-nav text-center pad-b-2">
+          <li><a href="http://www.instagram.com"><img class="instagram" src="images/instagram.svg" alt="instagram" aria-details="#instagram-icon"></a>
           </li>
-          <li><a href="http://www.twitter.com"><img class="social social-small" src="images/" alt="twitter" aria-details="#twitter-icon"></a>
+          <li><a href="http://www.twitter.com"><img class="twitter" src="images/twitter.svg" alt="twitter" aria-details="#twitter-icon"></a>
           </li>
-          <li><a href="http://www.facebook.com"><img class="social social-small" src="images/" alt="facebook" aria-details="#facebook-icon"></a></li>
+          <li><a href="http://www.facebook.com"><img class="facebook" src="images/facebook.svg" alt="facebook" aria-details="#facebook-icon"></a></li>
         </ul>
       </div>
-   </div>
-   <p class="text-center pad-t-2"><small>© Copyright 2020 | All rights reserved</small></p>
- </footer>
+    </div>
+    <p class="text-center pad-t-2"><small>© Copyright 2020 | All rights reserved</small></p>
+  </footer>
+
+</body>
+</html>

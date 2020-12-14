@@ -12,7 +12,9 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  color: #0d3554;
+  color: #32231c;
+  background-color: white;
+  font-family: Lora, serif;
 }
 
 main {
@@ -21,10 +23,6 @@ main {
 
 .main {
   margin: 0;
-}
-
-footer {
-  margin: 1rem;
 }
 
 img {
@@ -37,13 +35,14 @@ img {
 }
 
 .banner-content {
-  color: #e5f7fc;
+  color: #32231c;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
   display: flex;
   background: rgba(0, 0, 0, .5);
+  background-color: white;
 }
 
 .join {
@@ -63,41 +62,41 @@ img {
 }
 
 .nav a {
-  color: #0d3554;
+  color: white;
   text-decoration: none;
 }
 
 header {
-  background-color: #e5f7fc;
+  background-color: #32231c;
 }
 
 .btn {
   font-family: Futura, sans-serif;
   background-color: white;
-  color: #0d3554;
+  color: #d0a994;
   border: .3rem solid white;
   border-radius: 100px;
 }
 
 .btn:hover {
-  background-color: #0d3554;
-  border: .3rem solid #0d3554;
+  background-color: #d0a994;
+  border: .3rem solid #d0a994;
 }
 
 a:hover {
-  color: white;
+  color: #32231c;
 }
 
 .in {
-  background-color: #0d3554;
-  color: white;
-  border: .3rem solid #0d3554;
+  background-color: #32231c;
+  color: #d0a994;
+  border: .3rem solid #d0a994;
 }
 
 .in:hover {
-  background-color: #e5f7fc;
-  color: #0d3554;
-  border: .3rem solid #0d3554;
+  background-color: #d0a994;
+  color: #32231c;
+  border: .3rem solid #32231c;
 }
 
 ul {
@@ -128,6 +127,10 @@ ul {
   transform: rotate(-60deg);
 }
 
+nav a:hover {
+  color: #d0a994;
+}
+
 .everything {
   display: flex;
   flex-wrap: wrap;
@@ -139,6 +142,69 @@ ul {
   display: flex;
   flex-wrap: wrap;
   max-width: 50em;
+}
+
+.form {
+  background-color: white;
+  border: .3rem solid #32231c;
+  color: #32231c;
+}
+
+footer {
+  background-color: white;
+  margin: 0;
+  padding-bottom: 1em;
+  color: #32231c;
+  border-top: .3rem solid #32231c;
+}
+
+.contactfooter {
+  margin-top: 7em;
+  padding-top: 3em;
+}
+
+.aboutfooter {
+  border-top: .3rem solid white;
+}
+
+footer img {
+  max-width: 32px;
+  list-style-type: none;
+}
+
+.facebook {
+  margin: .5rem;
+}
+
+.instagram {
+  margin: .5rem;
+}
+
+.twitter {
+  margin: .5rem;
+}
+
+.about {
+  background-color: #d0a994;
+  border-top: .3rem solid #32231c;
+}
+
+.night {
+  background-color: #d0a994;
+}
+
+.beach {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Shadows Into Light", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #014421;
 }
 
 @media only screen and (min-width: 38em) {
