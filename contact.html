@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+  <div>
+    <header class="masthead" role="banner">
+      <div class="divna">
+        <nav class="nav" role="navigation" id="nav" tabindex="0">
+          <div class="logo">
+            <img src="images/logo.svg" alt="Logo for Tiki Night">
+          </div>
+          <ul class="ul text-right list-group-inline pad-t pad-b">
+            <li><a class="pad-t-1-2 gutter" href="index.html">Home</a></li>
+            <li><a class="pad-t-1-2 gutter" href="about.html">About</a></li>
+            <li><a class="current pad-t-1-2 gutter" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+  <main role="main" id="main" tabindex="0">
+    <section class="sign max-length" id="contact" tabindex="0">
+      <h1 class="pad-t">Reserve now!</h1>
+      <form class="push-0" action="https://formspree.io/simperlykate@gmail.com" method="POST">
+        <fieldset>
+          <legend class="mega italic pad-b-1-2">Personal details</legend>
+
+          <div class="grid">
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push push-r-1-2">
+                <label for="name">Name</label>
+                <input id="name" name="name" required>
+              </div>
+              <div class="push push-r-1-2">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email" required>
+              </div>
+            </div>
+
+            <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2">
+              <div class="push">
+                <label for="number">Phone Number</label>
+                <input id="number" type="text" name="number" required>
+              </div>
+              <div class="push">
+                <label for="people">Number of people</label>
+                <select id="people" name="people">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <div class="text-center pad-b-2">
+            <button class="btn text-upper in" type="submit">Reserve!</button>
+            <input type="hidden" name="reserve" value="reserve">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <div class="leaf">
+      <img src="images/leaf.svg" alt="">
+    </div>
+    <div class="leaftwo">
+      <img src="images/leaf.svg" alt="">
+    </div>
+
+  </main>
+
+  <footer class="aboutmefooter" role="contentinfo" id="footer" tabindex="0">
+
+    <div class="max-length grid">
+      <div class="connect unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <h3 class="push-0">Connect with us!</h3>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 social">
+        <ul class="footer-nav text-center pad-b-2 social">
+          <li><a href="http://www.instagram.com"><img class="social social-small" src="images/" alt="instagram" aria-details="#instagram-icon"></a>
+          </li>
+          <li><a href="http://www.twitter.com"><img class="social social-small" src="images/" alt="twitter" aria-details="#twitter-icon"></a>
+          </li>
+          <li><a href="http://www.facebook.com"><img class="social social-small" src="images/" alt="facebook" aria-details="#facebook-icon"></a></li>
+        </ul>
+      </div>
+   </div>
+   <p class="text-center pad-t-2"><small>© Copyright 2020 | All rights reserved</small></p>
+
+ </footer>
+
+</body>
+</html>
